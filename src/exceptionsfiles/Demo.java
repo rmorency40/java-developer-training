@@ -5,7 +5,7 @@ public class Demo {
 	public static void main(String[] args) {
 		System.out.println("Program starts  ...");
 		doMath(5 , 0);
-		System.out.println("Program continue...");
+		System.out.println("Program continue, please wait ...");
 	}
 	
 	public static void doMath( int a, int b ) {
