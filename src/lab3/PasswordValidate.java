@@ -30,7 +30,7 @@ public class PasswordValidate {
 		//Test again our criteria
 			
 			for (String password : passwords) {
-				System.out.println("*********\n" + password);
+				System.out.println("*********\n" + password + " \n");
 				boolean hasnumber = false;
 				boolean hasletter = false;
 				boolean hasspeacilcharacter = false;
