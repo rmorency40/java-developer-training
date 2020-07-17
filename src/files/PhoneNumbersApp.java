@@ -10,7 +10,7 @@ public class PhoneNumbersApp {
 
 	public static void main(String[] args) {
 		
-		
+		// 1. Define the file (path) that we wnat to read
 		String filename = "C:\\Users\\rmorency\\eclipse-workspace\\files\\PhoneNumbers.txt";
 		File file = new File(filename);
 		String [] phonenums = new String[9];
@@ -30,7 +30,7 @@ public class PhoneNumbersApp {
 				
 			}
 		
-		// Thia will read a text file  and will retrieve a valid phopne number
+		// This will read a text file  and will retrieve a valid phopne number
 				//Valid phone number is:
 				//10 digits long
 				
