@@ -56,7 +56,7 @@ public class PasswordValidate {
 						try {
 						throw  new InvalidCharacterException(password.substring(n, n + 1));
 						
-						}catch (InvalidCharacterException e) {e.toString(); break;}
+						}catch (InvalidCharacterException e) {e.toString();}
 					}
 				}
 				
