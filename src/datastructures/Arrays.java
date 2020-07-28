@@ -59,7 +59,7 @@ public class Arrays {
         
         // Using for each to make it simple
         
-        System.out.println("\n\nUsing for each loop");
+        System.out.println("\n\nUsing for each loop\n");
         for (String[] user : users) {
         	System.out.print("[ ");
         	for (String field : user) {
