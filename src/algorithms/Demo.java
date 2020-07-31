@@ -4,7 +4,7 @@ public class Demo {
 
 	public static void main(String[] args) {
 		
-		int[] numbers = {10, 25, 433, 26, 73, 132, 5};
+		int[] numbers = {10, 25, 433, 26, 73, 132, 5, 35};
 		int[] sortedNumbers = {5, 9, 12, 18, 21, 26, 29, 35, 39, 43, 49, 51, 58, 59, 61, 72, 88, 91, 94};
 		
 		//Unsorted list of numbers
@@ -20,6 +20,10 @@ public class Demo {
 		System.out.println("\n");
 		int index = algorithms.Search.binarySearch(sortedNumbers, 61, 0, sortedNumbers.length - 1);
 		System.out.println("Found at position " + index);
+		
+		//Call bubble Sort function
+		System.out.println("\n");
+		algorithms.Sort.bubbleSort(numbers);
 	}
 	
 
